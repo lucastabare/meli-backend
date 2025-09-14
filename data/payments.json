@@ -1,0 +1,32 @@
+[
+    {
+        "id": "visa",
+        "name": "Visa",
+        "type": "credit_card",
+        "installments": [
+            1,
+            3,
+            6,
+            12
+        ]
+    },
+    {
+        "id": "master",
+        "name": "Mastercard",
+        "type": "credit_card",
+        "installments": [
+            1,
+            3,
+            6,
+            12
+        ]
+    },
+    {
+        "id": "mercadopago",
+        "name": "Mercado Pago",
+        "type": "transfer",
+        "installments": [
+            1
+        ]
+    }
+]

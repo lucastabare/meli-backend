@@ -1,0 +1,10 @@
+[
+    {
+        "id": "SELLER1",
+        "nickname": "Tienda Oficial Samsung",
+        "city": "CABA",
+        "sales": 15342,
+        "reputation": "green",
+        "rating_average": 4.8
+    }
+]
