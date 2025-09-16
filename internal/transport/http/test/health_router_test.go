@@ -18,13 +18,15 @@ func TestRouterFull_Health(t *testing.T) {
 	_ = os.WriteFile(filepath.Join(td, "products.json"), []byte(`[]`), 0o644)
 	_ = os.WriteFile(filepath.Join(td, "sellers.json"), []byte(`[]`), 0o644)
 	_ = os.WriteFile(filepath.Join(td, "payments.json"), []byte(`[]`), 0o644)
+	_ = os.WriteFile(filepath.Join(td, "ads.json"), []byte(`[]`), 0o644)
 
 	st := jsonstore.NewStore(td)
 	productH := transporthttp.NewProductHandler(service.NewProductService(jsonstore.NewProductRepo(st)))
 	sellerH := transporthttp.NewSellerHandler(service.NewSellerService(jsonstore.NewSellerRepo(st)))
 	paymentH := transporthttp.NewPaymentHandler(service.NewPaymentService(jsonstore.NewPaymentRepo(st)))
+	adsH := transporthttp.NewAdsHandler(service.NewAdsService(jsonstore.NewAdsRepo(st)))
 
-	r := transporthttp.NewRouterFull(productH, sellerH, paymentH)
+	r := transporthttp.NewRouterFull(productH, sellerH, paymentH, adsH)
 
 	req := httptest.NewRequest(stdhttp.MethodGet, "/api/health", nil)
 	rr := httptest.NewRecorder()

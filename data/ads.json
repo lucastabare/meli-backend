@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ad1",
+    "placement": "pdp-inline",
+    "image": "https://dummyimage.com/1200x240/001d34/ffffff&text=Promo+Banco+%E2%80%94+12+cuotas",
+    "href": "https://example/ads/banco",
+    "alt": "Promo banco 12 cuotas"
+  },
+  {
+    "id": "ad2",
+    "placement": "pdp-inline",
+    "image": "https://dummyimage.com/1200x240/ffea00/333333&text=Envío+gratis+Full",
+    "href": "https://example/ads/envio",
+    "alt": "Envío gratis"
+  },
+  {
+    "id": "ad3",
+    "placement": "pdp-inline",
+    "image": "https://dummyimage.com/1200x240/3483fa/ffffff&text=Semana+Samsung",
+    "href": "https://example/ads/samsung-week",
+    "alt": "Semana Samsung"
+  }
+]

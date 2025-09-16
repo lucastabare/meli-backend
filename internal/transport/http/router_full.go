@@ -10,6 +10,7 @@ func NewRouterFull(
 	product *ProductHandler,
 	seller *SellerHandler,
 	payment *PaymentHandler,
+	ads *AdsHandler,
 ) http.Handler {
 	r := chi.NewRouter()
 	r.Use(Logging())
@@ -24,6 +25,7 @@ func NewRouterFull(
 		v.Route("/products", product.Routes)
 		v.Route("/sellers", seller.Routes)
 		v.Route("/payments", payment.Routes)
+		v.Route("/ads", ads.Routes)
 	})
 
 	return r

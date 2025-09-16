@@ -119,3 +119,16 @@ Errores:
 
 404 cuando un recurso no existe → {"error":"not found"}
 500 en errores internos → {"error":"internal error"}
+
+# Correr con Docker
+
+## Docker puro 
+docker build -t meli-api .
+docker run --rm -p 8080:8080 \
+  -e ADDR=":8080" -e DATA_DIR="/app/data" \
+  -v "$(pwd)/data:/app/data" \
+  meli-api
+
+## Docker compose 
+
+docker compose up --build

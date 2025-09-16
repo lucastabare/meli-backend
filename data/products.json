@@ -2,9 +2,9 @@
   {
     "id": "MLA123",
     "title": "Samsung Galaxy A55 5G 256GB 8GB RAM",
-    "price": 439.0,
-    "currency": "USD",
-    "condition": "new",
+    "price": 1044999,
+    "currency": "ARS",
+    "condition": "nuevo",
     "pictures": [
       {
         "id": "pic1",
@@ -233,16 +233,20 @@
   {
     "id": "MLA124",
     "title": "Samsung Galaxy A35 5G 128GB 6GB RAM",
-    "price": 329.0,
-    "currency": "USD",
-    "condition": "new",
+    "price": 12329,
+    "currency": "ARS",
+    "condition": "nuevo",
     "pictures": [
       {
         "id": "pic1",
-        "url": "https://dummyimage.com/800x800/eeeeee/333333&text=A35+1"
+        "url": "https://http2.mlstatic.com/D_NQ_NP_2X_876953-MLA91955622219_092025-F.webp"
+      },
+      {
+        "id": "pic2",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_2X_730221-MLU79107977327_092024-F.webp"
       }
     ],
-    "thumbnail": "https://dummyimage.com/400x400/eeeeee/333333&text=A35",
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_2X_876953-MLA91955622219_092025-F.webp",
     "permalink": "https://example/items/MLA124",
     "seller_id": "SELLER1",
     "category": "cellphone",
@@ -272,16 +276,20 @@
   {
     "id": "ACC001",
     "title": "Funda Samsung A55 TPU Transparente",
-    "price": 12.9,
-    "currency": "USD",
-    "condition": "new",
+    "price": 129999,
+    "currency": "ARS",
+    "condition": "nuevo",
     "pictures": [
       {
         "id": "pic1",
-        "url": "https://dummyimage.com/800x800/eeeeee/333333&text=Funda+A55"
+        "url": "https://samsungar.vtexassets.com/arquivos/ids/202719-1200-auto?width=1200&height=auto&aspect=true"
+      },
+      {
+        "id": "pic2",
+        "url": "https://samsungar.vtexassets.com/arquivos/ids/202721-1200-auto?width=1200&height=auto&aspect=true"
       }
     ],
-    "thumbnail": "https://dummyimage.com/400x400/eeeeee/333333&text=Funda",
+    "thumbnail": "https://samsungar.vtexassets.com/arquivos/ids/202719-1200-auto?width=1200&height=auto&aspect=true",
     "permalink": "https://example/items/ACC001",
     "seller_id": "SELLER1",
     "category": "accessory",
@@ -305,6 +313,183 @@
     ],
     "description": "Protección y agarre.",
     "rating_avg": 4.7,
+    "ratings": []
+  },
+   {
+    "id": "MLA125",
+    "title": "Samsung Galaxy M55 5G 256GB 8GB RAM",
+    "price": 989999,
+    "currency": "ARS",
+    "condition": "nuevo",
+    "pictures": [
+      { "id": "pic1", "url": "https://http2.mlstatic.com/D_NQ_NP_2X_708028-MLA92052359009_092025-F.webp" },
+      { "id": "pic2", "url": "https://http2.mlstatic.com/D_NQ_NP_2X_888345-MLA92052359012_092025-F.webp" }
+    ],
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_2X_708028-MLA92052359009_092025-F.webp",
+    "permalink": "https://example/items/MLA125",
+    "seller_id": "SELLER1",
+    "category": "cellphone",
+    "brand": "Samsung",
+    "tags": ["samsung","m55","5g"],
+    "shipping": { "free_shipping": true, "mode": "me2" },
+    "stock": { "available": 18, "sold": 62 },
+    "attributes": ["Pantalla 6.7\"", "8GB RAM", "256GB almacenamiento"],
+    "description": "Gran batería y pantalla AMOLED de 120 Hz.",
+    "rating_avg": 4.5,
+    "ratings": []
+  },
+  {
+    "id": "MLA126",
+    "title": "Xiaomi Redmi Note 13 Pro 256GB 8GB RAM",
+    "price": 879999,
+    "currency": "ARS",
+    "condition": "nuevo",
+    "pictures": [
+      { "id": "pic1", "url": "https://http2.mlstatic.com/D_NQ_NP_2X_889239-MLA91331835784_072025-F.webp" }
+    ],
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_2X_889239-MLA91331835784_072025-F.webp",
+    "permalink": "https://example/items/MLA126",
+    "seller_id": "SELLER1",
+    "category": "cellphone",
+    "brand": "Xiaomi",
+    "tags": ["xiaomi","redmi note","13 pro"],
+    "shipping": { "free_shipping": true, "mode": "me2" },
+    "stock": { "available": 25, "sold": 140 },
+    "attributes": ["Pantalla 6.67\"", "8GB RAM", "256GB almacenamiento"],
+    "description": "Cámara de 200 MP y carga rápida.",
+    "rating_avg": 4.7,
+    "ratings": []
+  },
+  {
+    "id": "MLA127",
+    "title": "Motorola Edge 40 Neo 256GB 8GB RAM",
+    "price": 799999,
+    "currency": "ARS",
+    "condition": "nuevo",
+    "pictures": [
+      { "id": "pic1", "url": "https://http2.mlstatic.com/D_NQ_NP_2X_904116-MLA71768068127_092023-F.webp" }
+    ],
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_2X_904116-MLA71768068127_092023-F.webp",
+    "permalink": "https://example/items/MLA127",
+    "seller_id": "SELLER1",
+    "category": "cellphone",
+    "brand": "Motorola",
+    "tags": ["motorola","edge 40 neo"],
+    "shipping": { "free_shipping": true, "mode": "me2" },
+    "stock": { "available": 30, "sold": 210 },
+    "attributes": ["Pantalla 6.55\"", "8GB RAM", "256GB almacenamiento"],
+    "description": "Pantalla pOLED 144 Hz y IP68.",
+    "rating_avg": 4.6,
+    "ratings": []
+  },
+  {
+    "id": "MLA128",
+    "title": "Samsung Galaxy S23 FE 128GB 8GB RAM",
+    "price": 1199999,
+    "currency": "ARS",
+    "condition": "nuevo",
+    "pictures": [
+      { "id": "pic1", "url": "https://http2.mlstatic.com/D_NQ_NP_2X_895321-MLA71792592723_092023-F.webp" }
+    ],
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_2X_895321-MLA71792592723_092023-F.webp",
+    "permalink": "https://example/items/MLA128",
+    "seller_id": "SELLER1",
+    "category": "cellphone",
+    "brand": "Samsung",
+    "tags": ["samsung","s23 fe"],
+    "shipping": { "free_shipping": true, "mode": "me2" },
+    "stock": { "available": 10, "sold": 55 },
+    "attributes": ["Pantalla 6.4\"", "8GB RAM", "128GB almacenamiento"],
+    "description": "Cámara de nivel flagship con Nightography.",
+    "rating_avg": 4.5,
+    "ratings": []
+  },
+  {
+    "id": "MLA129",
+    "title": "Motorola G84 5G 256GB 8GB RAM",
+    "price": 699999,
+    "currency": "ARS",
+    "condition": "nuevo",
+    "pictures": [
+      { "id": "pic1", "url": "https://http2.mlstatic.com/D_NQ_NP_2X_874056-MLA71416899249_092023-F.webp" }
+    ],
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_2X_874056-MLA71416899249_092023-F.webp",
+    "permalink": "https://example/items/MLA129",
+    "seller_id": "SELLER1",
+    "category": "cellphone",
+    "brand": "Motorola",
+    "tags": ["motorola","g84"],
+    "shipping": { "free_shipping": true, "mode": "me2" },
+    "stock": { "available": 40, "sold": 180 },
+    "attributes": ["Pantalla 6.5\"", "8GB RAM", "256GB almacenamiento"],
+    "description": "Pantalla pOLED y diseño en cuero vegano.",
+    "rating_avg": 4.4,
+    "ratings": []
+  },
+  {
+    "id": "MLA130",
+    "title": "realme 12+ 5G 256GB 8GB RAM",
+    "price": 739999,
+    "currency": "ARS",
+    "condition": "nuevo",
+    "pictures": [
+      { "id": "pic1", "url": "https://http2.mlstatic.com/D_NQ_NP_2X_608167-MLA91016780925_082025-F.webp" }
+    ],
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_2X_608167-MLA91016780925_082025-F.webp",
+    "permalink": "https://example/items/MLA130",
+    "seller_id": "SELLER1",
+    "category": "cellphone",
+    "brand": "Realme",
+    "tags": ["realme","12 plus"],
+    "shipping": { "free_shipping": true, "mode": "me2" },
+    "stock": { "available": 22, "sold": 65 },
+    "attributes": ["Pantalla 6.7\"", "8GB RAM", "256GB almacenamiento"],
+    "description": "Buen rendimiento y cámara Sony LYT600.",
+    "rating_avg": 4.3,
+    "ratings": []
+  },
+  {
+    "id": "ACC002",
+    "title": "Vidrio templado Samsung A55 9H",
+    "price": 9999,
+    "currency": "ARS",
+    "condition": "nuevo",
+    "pictures": [
+      { "id": "pic1", "url": "https://dummyimage.com/800x800/eeeeee/333333&text=Templado+A55" }
+    ],
+    "thumbnail": "https://dummyimage.com/400x400/eeeeee/333333&text=Templado+A55",
+    "permalink": "https://example/items/ACC002",
+    "seller_id": "SELLER1",
+    "category": "accessory",
+    "brand": "Generic",
+    "tags": ["samsung","a55","glass"],
+    "shipping": { "free_shipping": false, "mode": "me2" },
+    "stock": { "available": 300, "sold": 900 },
+    "attributes": ["Dureza 9H", "Oleofóbico"],
+    "description": "Protección contra rayas y golpes.",
+    "rating_avg": 4.6,
+    "ratings": []
+  },
+  {
+    "id": "ACC003",
+    "title": "Cargador Rápido USB-C 25W Samsung",
+    "price": 42999,
+    "currency": "ARS",
+    "condition": "nuevo",
+    "pictures": [
+      { "id": "pic1", "url": "https://http2.mlstatic.com/D_NQ_NP_2X_907013-MLA50046859586_052022-F.webp" }
+    ],
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_2X_907013-MLA50046859586_052022-F.webp",
+    "permalink": "https://example/items/ACC003",
+    "seller_id": "SELLER1",
+    "category": "accessory",
+    "brand": "Samsung",
+    "tags": ["samsung","charger","25w"],
+    "shipping": { "free_shipping": false, "mode": "me2" },
+    "stock": { "available": 150, "sold": 520 },
+    "attributes": ["USB-C", "25W"],
+    "description": "Carga rápida compatible con Galaxy A y S.",
+    "rating_avg": 4.8,
     "ratings": []
   }
 ]

@@ -1,0 +1,16 @@
+.bin/
+build/
+dist/
+*.out
+*.cover
+coverage/
+coverage.*
+
+.git
+.gitignore
+.vscode
+.idea
+
+**/*_test.go
+
+data/
