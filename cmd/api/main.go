@@ -3,6 +3,7 @@ package main
 import (
 	"log"
 	"net/http"
+
 	"meli/internal/config"
 	"meli/internal/repository/jsonstore"
 	"meli/internal/service"
@@ -11,18 +12,18 @@ import (
 
 func main() {
 	cfg := config.Load()
-	store := jsonstore.NewStore(cfg.DataDir)
 
+	store := jsonstore.NewStore(cfg.DataDir)
 	productRepo := jsonstore.NewProductRepo(store)
-	sellerRepo  := jsonstore.NewSellerRepo(store)
+	sellerRepo := jsonstore.NewSellerRepo(store)
 	paymentRepo := jsonstore.NewPaymentRepo(store)
 
 	productSvc := service.NewProductService(productRepo)
-	sellerSvc  := service.NewSellerService(sellerRepo)
+	sellerSvc := service.NewSellerService(sellerRepo)
 	paymentSvc := service.NewPaymentService(paymentRepo)
 
 	productHandler := th.NewProductHandler(productSvc)
-	sellerHandler  := th.NewSellerHandler(sellerSvc)
+	sellerHandler := th.NewSellerHandler(sellerSvc)
 	paymentHandler := th.NewPaymentHandler(paymentSvc)
 
 	router := th.NewRouterFull(productHandler, sellerHandler, paymentHandler)

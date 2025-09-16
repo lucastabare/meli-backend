@@ -5,20 +5,230 @@
     "price": 439.0,
     "currency": "USD",
     "condition": "new",
-    "pictures": [{ "id":"pic1", "url":"https://dummyimage.com/800x800/eeeeee/333333&text=A55+1"}],
+    "pictures": [
+      {
+        "id": "pic1",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_2X_800035-MLA81367078349_122024-F.webp"
+      },
+      {
+        "id": "pic2",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_2X_621964-MLA81364948571_122024-F.webp"
+      },
+      {
+        "id": "pic3",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_2X_777643-MLA75395342152_042024-F.webp"
+      },
+      {
+        "id": "pic4",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_2X_725539-MLA80825742603_112024-F.webp"
+      },
+      {
+        "id": "pic5",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_2X_832248-MLA81366749957_122024-F.webp"
+      },
+      {
+        "id": "pic6",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_2X_780712-MLA81099188364_122024-F.webp"
+      },
+      {
+        "id": "pic7",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_2X_818960-MLA81099131368_122024-F.webp"
+      },
+      {
+        "id": "pic8",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_2X_868167-MLA81099064398_122024-F.webp"
+      },
+      {
+        "id": "pic9",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_2X_860746-MLA92114451430_092025-F.webp"
+      }
+    ],
     "thumbnail": "https://dummyimage.com/400x400/eeeeee/333333&text=A55",
     "permalink": "https://example/items/MLA123",
     "seller_id": "SELLER1",
     "category": "cellphone",
     "brand": "Samsung",
-    "tags": ["samsung","galaxy","a55"],
-    "related_ids": ["ACC001"],
-    "shipping": {"free_shipping": true, "mode": "me2"},
-    "stock": {"available": 12, "sold": 134},
-    "attributes": ["Pantalla 6.6\"", "8GB RAM", "256GB almacenamiento"],
-    "description": "Equipo liberado...",
+    "tags": [
+      "samsung",
+      "galaxy",
+      "a55"
+    ],
+    "related_ids": [
+      "ACC001"
+    ],
+    "shipping": {
+      "free_shipping": true,
+      "mode": "me2"
+    },
+    "stock": {
+      "available": 12,
+      "sold": 134
+    },
+    "attributes": [
+      "Pantalla 6.6\"",
+      "8GB RAM",
+      "256GB almacenamiento"
+    ],
+    "specs": {
+      "highlights": {
+        "Tamaño de la pantalla": "6.6 \" (16.11 cm x 7.74 cm x 8.2 mm)",
+        "Memoria interna": "256 GB",
+        "Cámara trasera principal": "50 Mpx",
+        "Con NFC": "Sí",
+        "Cámara frontal principal": "32 Mpx",
+        "Desbloqueo": "Huella dactilar y reconocimiento facial"
+      },
+      "groups": {
+        "Características generales": {
+          "Marca": "Samsung",
+          "Línea": "Galaxy A",
+          "Modelo": "A55 5G",
+          "Color": "Azul oscuro",
+          "Modelo detallado": "SM-A556E",
+          "Versiones": "SM-A556V, SM-A556U, SM-A556U1, SM-A556B, SM-A556B/DS, SM-A556E, SM-A556E/DS, SM-A5560"
+        },
+        "Sistema operativo": {
+          "Nombre del sistema operativo": "Android",
+          "Versión original": "14",
+          "Última versión compatible": "14",
+          "Edición": "Android One",
+          "Capa de personalización": "One UI 6"
+        },
+        "Procesador": {
+          "Modelo del procesador": "Exynos 1480",
+          "Velocidad del procesador": "2,75 GHz",
+          "Modelo de GPU": "Xclipse 530",
+          "Cantidad de núcleos": "8",
+          "Velocidad del GPU": "2,75 GHz"
+        },
+        "Especificaciones": {
+          "Mes de lanzamiento": "Marzo",
+          "Año de lanzamiento": "2024"
+        },
+        "Pantalla": {
+          "Tamaño de la pantalla": "6,6 \"",
+          "Tipo de resolución": "Full HD+",
+          "Resolución": "1080 px x 2340 px",
+          "Tecnología": "Super AMOLED",
+          "Tipo de pantalla": "Infinity-U Display",
+          "Píxeles por pulgada": "389 ppi",
+          "Frecuencia de actualización": "120 Hz",
+          "Brillo máximo": "1.000 cd/m²",
+          "Relación de aspecto": "19.5:9",
+          "Con pantalla táctil": "Sí",
+          "Con pantalla plegable": "No",
+          "Con pantalla secundaria táctil": "No"
+        },
+        "Batería": {
+          "Capacidad": "5 Ah",
+          "Tipo de batería": "Ion de litio",
+          "Tiempo de conversación": "79 h",
+          "Con carga rápida": "Sí",
+          "Con carga inalámbrica": "No",
+          "Con batería removible": "No"
+        },
+        "Seguridad": {
+          "Con lector de huella digital": "Sí",
+          "Con reconocimiento facial": "Sí",
+          "Con reconocimiento de iris": "No",
+          "Con botón SOS": "No"
+        },
+        "Peso y dimensiones": {
+          "Peso": "213 g",
+          "Altura x Ancho x Profundidad": "16.11 cm x 7.74 cm x 8.2 mm"
+        },
+        "Sensores": {
+          "Con acelerómetro": "Sí",
+          "Con sensor de proximidad": "Sí",
+          "Con giroscopio": "Sí",
+          "Con brújula": "Sí",
+          "Con sensor de ritmo cardíaco": "No"
+        },
+        "Tarjeta SIM": {
+          "Es Dual SIM": "Sí",
+          "Cantidad de ranuras para tarjeta SIM": "1",
+          "Cantidad de eSIMs": "1",
+          "Tamaños de tarjeta SIM compatibles": "Nano-SIM",
+          "Con eSIM": "Sí"
+        },
+        "Memoria": {
+          "Memoria interna": "256 GB",
+          "Memoria RAM": "8 GB",
+          "Tipos de tarjeta de memoria": "Micro-SD",
+          "Capacidad máxima de la tarjeta de memoria": "1 TB",
+          "Con ranura para tarjeta de memoria": "Sí"
+        },
+        "Conectividad": {
+          "Red móvil": "5G",
+          "Tipo de conector de carga": "USB-C",
+          "Con conector USB": "Sí",
+          "Con conector jack 3.5 mm": "No",
+          "Con Wi-Fi": "Sí",
+          "Con GPS": "Sí",
+          "Con Bluetooth": "Sí",
+          "Con NFC": "Sí",
+          "Con mini-HDMI": "No",
+          "Con radio": "No",
+          "Con sintonizador de TV": "No"
+        },
+        "Cámara": {
+          "Resolución de la cámara trasera principal": "50 Mpx",
+          "Resolución de video de la cámara trasera": "3840 px x 2160 px",
+          "Resolución de la cámara frontal principal": "32 Mpx",
+          "Características principales de las cámaras": "Borrador de objetos, HDR, Modo retrato, Nightografía",
+          "Tipos de cámaras traseras": "Ultra Wide, Macro, Principal",
+          "Resolución de las cámaras traseras": "50 Mpx / 12 Mpx / 5 Mpx",
+          "Apertura del diafragma de la cámara trasera": "f 1.8 / f 2.2 / f 2.4",
+          "Resolución de las cámaras frontales": "32 MP",
+          "Apertura del diafragma de la cámara frontal": "f 2.2",
+          "Cantidad de cámaras traseras": "3",
+          "Cantidad de cámaras frontales": "1",
+          "Zoom digital": "10x",
+          "Resolución de video de la cámara frontal": "3840 px x 2160 px",
+          "Con cámara": "Sí",
+          "Con flash en la cámara frontal": "No",
+          "Con reconocimiento de mano": "Sí"
+        },
+        "Diseño y resistencia": {
+          "Clasificación IP": "IP67",
+          "Con teclado QWERTY físico": "No",
+          "Es resistente a salpicaduras": "Sí",
+          "Es resistente al agua": "Sí",
+          "Es a prueba de agua": "No",
+          "Es resistente al polvo": "Sí",
+          "Es resistente a caídas": "Sí"
+        },
+        "Otros": {
+          "Es celular de juego": "Sí",
+          "Es celular robusto": "Sí",
+          "Resolución de la cámara gran angular": "12 Mpx",
+          "Incluye lápiz": "No"
+        }
+      }
+    },
+    "description_short": "Pantalla 6.6\" Super AMOLED 120 Hz. Exynos 1480. 8 GB RAM + 256 GB.",
+    "description_long": "El Galaxy A55 integra pantalla Super AMOLED de 6,6\" con 120 Hz, brillo de 1000 nits y Vision Booster. Su procesador Exynos 1480 ofrece un rendimiento fluido para juegos y multitarea. Triple cámara trasera con principal de 50 MP y frontal de 32 MP. Batería de 5000 mAh con carga rápida. Resistencia IP67 al agua y polvo. One UI 6 sobre Android 14 con 4 años de actualizaciones de SO.\n\nIncluye: cable USB-C. No incluye cargador.",
     "rating_avg": 4.6,
-    "ratings": []
+    "ratings": [
+      {
+        "user": "María",
+        "stars": 5,
+        "comment": "Vuelo de batería y cámara excelente.",
+        "date": "2025-06-10"
+      },
+      {
+        "user": "Julián",
+        "stars": 4,
+        "comment": "Pantalla hermosa, faltó cargador.",
+        "date": "2025-07-02"
+      },
+      {
+        "user": "Ro",
+        "stars": 4,
+        "comment": "Rinde bien para juegos casuales.",
+        "date": "2025-08-11"
+      }
+    ]
   },
   {
     "id": "MLA124",
@@ -26,16 +236,35 @@
     "price": 329.0,
     "currency": "USD",
     "condition": "new",
-    "pictures": [{ "id":"pic1", "url":"https://dummyimage.com/800x800/eeeeee/333333&text=A35+1"}],
+    "pictures": [
+      {
+        "id": "pic1",
+        "url": "https://dummyimage.com/800x800/eeeeee/333333&text=A35+1"
+      }
+    ],
     "thumbnail": "https://dummyimage.com/400x400/eeeeee/333333&text=A35",
     "permalink": "https://example/items/MLA124",
     "seller_id": "SELLER1",
     "category": "cellphone",
     "brand": "Samsung",
-    "tags": ["samsung","galaxy","a35"],
-    "shipping": {"free_shipping": true, "mode": "me2"},
-    "stock": {"available": 20, "sold": 90},
-    "attributes": ["Pantalla 6.5\"", "6GB RAM", "128GB almacenamiento"],
+    "tags": [
+      "samsung",
+      "galaxy",
+      "a35"
+    ],
+    "shipping": {
+      "free_shipping": true,
+      "mode": "me2"
+    },
+    "stock": {
+      "available": 20,
+      "sold": 90
+    },
+    "attributes": [
+      "Pantalla 6.5\"",
+      "6GB RAM",
+      "128GB almacenamiento"
+    ],
     "description": "Gran relación...",
     "rating_avg": 4.4,
     "ratings": []
@@ -46,16 +275,34 @@
     "price": 12.9,
     "currency": "USD",
     "condition": "new",
-    "pictures": [{ "id":"pic1", "url":"https://dummyimage.com/800x800/eeeeee/333333&text=Funda+A55"}],
+    "pictures": [
+      {
+        "id": "pic1",
+        "url": "https://dummyimage.com/800x800/eeeeee/333333&text=Funda+A55"
+      }
+    ],
     "thumbnail": "https://dummyimage.com/400x400/eeeeee/333333&text=Funda",
     "permalink": "https://example/items/ACC001",
     "seller_id": "SELLER1",
     "category": "accessory",
     "brand": "Generic",
-    "tags": ["samsung","a55","case"],
-    "shipping": {"free_shipping": false, "mode": "me2"},
-    "stock": {"available": 120, "sold": 400},
-    "attributes": ["Material TPU", "Transparente"],
+    "tags": [
+      "samsung",
+      "a55",
+      "case"
+    ],
+    "shipping": {
+      "free_shipping": false,
+      "mode": "me2"
+    },
+    "stock": {
+      "available": 120,
+      "sold": 400
+    },
+    "attributes": [
+      "Material TPU",
+      "Transparente"
+    ],
     "description": "Protección y agarre.",
     "rating_avg": 4.7,
     "ratings": []
